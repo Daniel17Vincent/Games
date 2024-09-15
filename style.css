@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+body {
+    padding: 0.3rem;
+    background: #212121;
+    position: relative;
+    overflow-x: hidden;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem;
+  background: indianred;
+}
+header h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header a {
+  padding: 0.8rem 1rem;
+  background: #fff;
+  color: #777;
+  border-radius: 20px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 0.8rem;
+  background: snow;
+  margin: 0.6rem 0rem;
+}
+.info h6 {
+  color: #333;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+.img {
+  background: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem;
+  
+}
+img {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0rem;
+}
+.title {
+  padding: 0.4rem;
+  margin: 1rem 0rem;
+}
+.title h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: ;
+  font-variant: small-caps;
+}
+.title h1 span {
+  color: indianred;
+  font-variant: small-caps;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 2rem 0rem;
+  font-stretch: semi-condensed;
+}
+article {
+  padding: 0.4rem;
+  background: #333;
+}
+h2 {
+  font-size: 1.8rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  border-bottom: 2px solid darkorange;
+  padding-bottom: 1rem;
+}
+.games {
+  margin: 4rem 0rem;
+}
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+.num span {
+  width: 100%;
+  height: 4px;
+  background: indianred;
+  border-radius: 0px;
+}
+.num h3 {
+  border: 4px solid indianred;
+  border-radius: 50%;
+  padding: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.games .game-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem;
+  gap: 1rem;
+}
+.games .game-title h1 {
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.games span .pic {
+  background: #fff;
+  border-radius: 50%;
+}
+.games span img {
+  width: 50px;
+  height: auto;
+}
+.down {
+  padding: 0.8rem 1rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.down h3 {
+  font-size: 1rem;
+  color: #777;
+}
+button {
+  border: none;
+}
+.down button a {
+  padding: 0.8rem 2rem;
+  background: indianred;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+.free a {
+  padding: 0.4rem 0.7rem;
+  background: darkorange;
+}
+footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem;
+  background: linear-gradient(270deg, orange, indianred);
+}
+footer form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+}
+form input {
+  padding: 0.8rem 1rem;
+  width: 90vw;
+  background: snow;
+  border-radius: 50px;
+  color: #777;
+  border: none;
+  margin: 0.5rem 0rem;
+}
+form input:focus {
+  border: 2px solid indianred;
+}
+textarea {
+  height: 140px;
+  width: 90vw;
+  border-radius: 20px;
+  padding: 1rem;
+  color: #777;
+  margin: 0.5rem 0rem;
+}
+footer button {
+  background: darkorange;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.8rem 2rem;
+  margin: 0.5rem 0rem;
+  font-size: 1.05rem;
+  box-shadow: 1px 1px 10px 6px rgba(0,0,0,0.05);
+}
